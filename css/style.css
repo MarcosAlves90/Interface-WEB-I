@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
 
 body{
-    background-image: url(https://img.rawpixel.com/s3fs-private/rawpixel_images/website_content/rm309-adj-01.jpg?w=800&dpr=1&fit=default&crop=default&q=65&vib=3&con=3&usm=15&bg=F4F4F3&ixlib=js-2.2.1&s=2204002a48c0d2dc60c1a27a4cc4fd97);
+    background-image: url(img/UndWhite.jpg);
     background-attachment: fixed;
     background-size:cover;
     background-repeat: no-repeat;
@@ -29,6 +29,12 @@ p{
 }
 
 ul,li{
+    margin-top: 1%;
+    margin-bottom: 1%;
+    font-family: 'Open Sans', sans-serif;
+}
+
+ol,li{
     margin-top: 1%;
     margin-bottom: 1%;
     font-family: 'Open Sans', sans-serif;
