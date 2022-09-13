@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MT - Contato</title>
+  <link rel="stylesheet" type="text/css" href="css\reset.css">
+  <link rel="stylesheet" type="text/css" href="css\style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter&family=Open+Sans&display=swap" rel="stylesheet">
+  <link rel="shortchut icon" href="img\Favicon.png">
+</head>
+
+<body>
+    
+    <header class="fixo">
+          <h1><img class="logotipo" src="img/logotipo.svg"></h1>
+          <nav class="menu-opcoes">
+            <ul class="ajustes">
+              <li><a href="index.html">Início</a></li>
+              <li><a href="index.html#MTT">Mercado de Trabalho</a></li>
+              <li><a href="profissoes.html">Profissões</a></li>
+              <li><a href="tendencias.html">Tendências</a></li>
+              <li><a href="contato.html">Contato</a></li>
+            </ul>
+          </nav>
+    </header>
+
+
+<div class="container">
+    <div>
+
+
+
+        <h1 class="titulos">FORMULÁRIO DE CONTATO</h1>
+
+        <p class="falacian">Entre em contato conosco para sanar suas dúvidas ou enviar sugestões.</p>
+
+        <div class="fundo">
+            <form>
+                <div class="distancia">
+                    <input type="text" placeholder="Digite seu Nome">
+                </div>
+
+            <div class="distancia">
+                <input type="text" placeholder="Digite seu E-mail">
+            </div>
+                
+                <div class="distancia">
+                    <input type="text" placeholder="Digite o Assunto">
+                </div>
+                
+
+                <div class="distancia">
+                    <fieldset>
+                        <legend>Sexo</legend>
+                            <input type="radio" id="male" name="gender" value="male">
+                            <label for="male">Feminino</label><br>
+                            <input type="radio" id="female" name="gender" value="female">
+                            <label for="female">Masculino</label><br>
+                    </fieldset>
+                </div>
+                <div class="distancia">
+                    <fieldset>
+                        <legend>E-mail</legend>
+                            <input type="checkbox" id="male" name="gender" value="male">
+                            <label for="male">Eu gostaria de receber e-mails com as mais novas pesquisas?</label><br>
+                            <input type="checkbox" id="female" name="gender" value="female">
+                            <label for="male">Eu gostaria de receber e-mails promocionais?</label><br>
+                    </fieldset>
+                </div>
+                <div class="distancia">
+                    <label for="cars">Escolaridade: </label>
+                    <select id="cars" name="cars">
+                        <option value="volvo">Fundamental</option>
+                        <option value="saab">Ensino Médio</option>
+                        <option value="fiat">Superior</option>
+                        <option value="audi">Especialização</option>
+                    </select>
+                </div>
+                <div class="distancia">
+                    <label for="cars">Sugestão ou Dúvida</label>
+                    <textarea name="message" style="width:80%; height:200px;">Digite seu Texto</textarea>
+                </div>
+                <div class="distancia">
+                    <input type="submit" value="Enviar">
+                </div>
+            </form>
+        </div>
+
+    </div>
+  </div>
+<br>
+
+  <footer style="position: fixed;">
+    <p style="color:white">Rodapé</p>
+        
+
+  </footer>
+
+
+</body>
+</html>
